@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navItem1"
+        android:title="Home"
+        android:checked="true"/>
+
+    <item android:id="@+id/navItem2"
+        android:title="Profile"/>
+
+    <item android:id="@+id/subheader"
+        android:title="Subheader">
+
+        <menu>
+            <item android:id="@+id/subitem1"
+                android:title="SubItem">
+
+            </item>
+
+        </menu>
+    </item>
+</menu>
